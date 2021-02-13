@@ -1,0 +1,95 @@
+.header {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px -2px #141414;
+    
+}
+
+.header span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.githubMobile {
+    display: flex;
+    justify-content: center;
+
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 1px 1px 3px #141414;
+    background-color: transparent;
+    width: 250px;
+    padding: 5px 0 5px 0;
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.githubMobile a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.githubMobile img {
+    margin-right: 10px;
+}
+
+.githubDesktop {
+    display: none;
+}
+
+.information {
+    line-height: 1;
+}
+
+.information h1 {
+    margin-left: 5px;
+    max-width: 350px;
+}
+
+.information span {
+    color: #FEC704;
+}
+
+.stackDesktop {
+    display: none;
+}
+
+.stackMobile {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+    justify-content: space-around;
+}
+
+.footer h2 {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.footer p {
+    margin-left: 5px;
+    color: #3E3E3E;
+}
+
+.footer div {
+    height: 30px;
+}
