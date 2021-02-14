@@ -13,7 +13,7 @@ function HomePage() {
                 <button className={homecss.githubMobile}>
                     <a target="_blank" href="https://github.com/devalmagno">
                         <img src="/images/icons/github.svg" />
-                            Veja meu GitHub
+                            {/* Veja meu GitHub */}
                         </a>
                 </button>
 

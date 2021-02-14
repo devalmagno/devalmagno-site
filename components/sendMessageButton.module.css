@@ -1,17 +1,18 @@
 .sendMessageButton {
     background-color: #3E3E3E;
+    color: #F5F3F4;
     border: 0;
     border-radius: 10px;
     width: 300px;
     height: 50px;
+    box-shadow: 0 0 3px #141414;
 
     cursor: pointer;
 }
 
 .sendMessageButton a {
     color: #F5F3F4;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
 }
 
 .sendMessageButton:hover {
