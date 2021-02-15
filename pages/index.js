@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import SendMessageButton from '../components/sendMessageButton';
 
 import homecss from '../styles/home.module.css';
@@ -5,6 +7,10 @@ import homecss from '../styles/home.module.css';
 function HomePage() {
     return (
         <div>
+            <Head>
+                <title>Lúcio Magno</title>
+            </Head>
+
             <header className={homecss.header}>
                 <span>
                     Lúcio Magno
@@ -13,8 +19,8 @@ function HomePage() {
                 <button className={homecss.githubMobile}>
                     <a target="_blank" href="https://github.com/devalmagno">
                         <img src="/images/icons/github.svg" />
-                            {/* Veja meu GitHub */}
-                        </a>
+                        {/* Veja meu GitHub */}
+                    </a>
                 </button>
 
                 <div className={homecss.buttonsDesktop}>
@@ -27,10 +33,24 @@ function HomePage() {
 
             <main>
                 <div className={homecss.information}>
-                    <h1>Freelance full-stack
-                    <span> javascript </span>
-                    developer.
-                    </h1>
+                    <div>
+                        <h1>Freelance full-stack
+                            <span> javascript </span>
+                            developer.
+                        </h1>
+
+                        <p>
+                            Por ser mais rápida que outras linguagens de programação e me abrir um leque de possibilidades, como front-end, back-end e mobile, além de suas várias bibliotecas, escolhi JavaScript como minha linguagem de programação principal.
+                        </p>
+
+                        <div>
+                            <button className={homecss.seeMyProjects}>
+                                <a>
+                                    Veja meus projetos
+                                </a>
+                            </button>
+                        </div>
+                    </div>
                     <img src="/images/lucio-magno.svg" />
                 </div>
 
