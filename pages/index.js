@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Head from 'next/head';
 
 import SendMessageButton from '../components/sendMessageButton';
@@ -57,7 +58,11 @@ function HomePage() {
                 <div>
                     <div className={homecss.stackDesktop}>
                         <a target="_blank" href="https://pt-br.reactjs.org/">
-                            <img src="/images/icons/reactjs-large.svg" />
+                            <Image 
+                                src="/images/icons/reactjs-large.svg" 
+                                width={100}
+                                height={50}
+                            />
                         </a>
                         <a target="_blank" href="https://nextjs.org/">
                             <img src="/images/icons/nextjs-large.svg" />
