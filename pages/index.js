@@ -57,7 +57,7 @@ function HomePage() {
                 <div>
                     <div className={homecss.stackDesktop}>
                         <a target="_blank" href="https://pt-br.reactjs.org/">
-                            <img src="/images/icons/reactjs-large.svg" alt="Reactjs" />
+                            <img src="https://raw.githubusercontent.com/devalmagno/devalmagno-site/ff1b7fe1a8a7d312b4c49bcef6321ba2e9b2016d/public/images/icons/Reactjs-large.svg" alt="Reactjs" />
                         </a>
                         <a target="_blank" href="https://nextjs.org/">
                             <img src="/images/icons/nextjs-large.svg" alt="Nextjs" />
@@ -66,10 +66,10 @@ function HomePage() {
                             <img src="/images/icons/nodejs-large.svg" alt="NodeJs" />
                         </a>
                         <a target="_blank" href="https://expressjs.com/pt-br/">
-                            <img src="/images/icons/express-large.svg" alt="Expressjs" />
+                            <img src="https://raw.githubusercontent.com/devalmagno/devalmagno-site/b48c2263a6eb430145355387e243e9fbb1fb0301/public/images/icons/Express-large.svg" alt="Expressjs" />
                         </a>
                         <a target="_blank" href="https://www.typescriptlang.org/">
-                            <img src="/images/icons/typescript-large.svg" alt="Typescript" />
+                            <img src="https://raw.githubusercontent.com/devalmagno/devalmagno-site/b48c2263a6eb430145355387e243e9fbb1fb0301/public/images/icons/Typescript-large.svg" alt="Typescript" />
                         </a>
                     </div>
 
@@ -84,7 +84,7 @@ function HomePage() {
                             <img src="/images/icons/nodejs-small.svg" alt="Nodejs" />
                         </a>
                         <a target="_blank" href="https://www.typescriptlang.org/">
-                            <img src="/images/icons/typescript-small.svg" alt="Typescript" />
+                            <img src="https://raw.githubusercontent.com/devalmagno/devalmagno-site/b48c2263a6eb430145355387e243e9fbb1fb0301/public/images/icons/Typescript-small.svg" alt="Typescript" />
                         </a>
                     </div>
                 </div>
