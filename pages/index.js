@@ -12,6 +12,8 @@ function HomePage() {
     return (
         <div>
             <Head>
+                <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
                 <title>Lúcio Magno</title>
             </Head>
 
@@ -52,7 +54,7 @@ function HomePage() {
                         </h1>
 
                         <p>
-                             Escolhi Javascript principalmente por ser uma linguagem de programação mais rápida que as outras, também por me abrir um leque de possibilidades, como front-end, back-end e mobile, além de suas várias bibliotecas. Por isso a considero a minha linguagem príncipal para desenvolvimento.
+                            Escolhi Javascript principalmente por ser uma linguagem de programação mais rápida que as outras, também por me abrir um leque de possibilidades, como front-end, back-end e mobile, além de suas várias bibliotecas. Por isso a considero a minha linguagem príncipal para desenvolvimento.
                         </p>
 
                         <div>

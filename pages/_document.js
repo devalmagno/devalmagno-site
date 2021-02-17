@@ -5,12 +5,13 @@ class MyDocument extends Document {
         const initialProps = await Document.getInitialProps(ctx);
         return { ...initialProps }
     }
-    
+
     render() {
         return (
             <Html>
                 <Head>
                     <link href={`https://fonts.googleapis.com/css2family=Roboto&display=swap`} rel="stylesheet" />
+                    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
                 </Head>
                 <body>
                     <Main />
