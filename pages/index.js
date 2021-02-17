@@ -57,34 +57,34 @@ function HomePage() {
                 <div>
                     <div className={homecss.stackDesktop}>
                         <a target="_blank" href="https://pt-br.reactjs.org/">
-                            <img src="/images/icons/reactjs-large.svg" />
+                            <img src="/images/icons/reactjs-large.svg" alt="Reactjs" />
                         </a>
                         <a target="_blank" href="https://nextjs.org/">
-                            <img src="/images/icons/nextjs-large.svg" />
+                            <img src="/images/icons/nextjs-large.svg" alt="Nextjs" />
                         </a>
                         <a target="_blank" href="https://nodejs.org/en/">
-                            <img src="/images/icons/nodejs-large.svg" />
+                            <img src="/images/icons/nodejs-large.svg" alt="NodeJs" />
                         </a>
                         <a target="_blank" href="https://expressjs.com/pt-br/">
-                            <img src="/images/icons/express-large.svg" />
+                            <img src="/images/icons/express-large.svg" alt="Expressjs" />
                         </a>
                         <a target="_blank" href="https://www.typescriptlang.org/">
-                            <img src="/images/icons/typescript-large.svg" />
+                            <img src="/images/icons/typescript-large.svg" alt="Typescript" />
                         </a>
                     </div>
 
                     <div className={homecss.stackMobile}>
                         <a target="_blank" href="https://pt-br.reactjs.org/">
-                            <img src="/images/icons/reactjs-small.svg" />
+                            <img src="/images/icons/reactjs-small.svg" alt="Reactjs" />
                         </a>
                         <a target="_blank" href="https://nextjs.org/">
-                            <img src="/images/icons/nextjs-small.svg" />
+                            <img src="/images/icons/nextjs-small.svg" alt="Nextjs" />
                         </a>
                         <a target="_blank" href="https://nodejs.org/en/">
-                            <img src="/images/icons/nodejs-small.svg" />
+                            <img src="/images/icons/nodejs-small.svg" alt="Nodejs" />
                         </a>
                         <a target="_blank" href="https://www.typescriptlang.org/">
-                            <img src="/images/icons/typescript-small.svg" />
+                            <img src="/images/icons/typescript-small.svg" alt="Typescript" />
                         </a>
                     </div>
                 </div>
