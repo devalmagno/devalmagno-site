@@ -57,15 +57,23 @@
 
 .information h1 {
   margin-left: 5px;
-  max-width: 350px;
+  max-width: 400px;
 }
 
-.information span {
+.information a {
   color: #fec704;
+}
+
+.information a.javascriptHref:hover {
+  text-decoration: underline;
+  text-decoration-color: #fec704;
 }
 
 .information p {
   margin-left: 5px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #3E3E3E;
 }
 
 .seeMyProjects {
@@ -78,6 +86,7 @@
   box-shadow: 0 0 3px #141414;
 
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .seeMyProjects:hover {
@@ -98,6 +107,14 @@
 
   display: flex;
   justify-content: space-around;
+}
+
+.stackMobile a:hover {
+  border-bottom: 1px solid #141414;
+}
+
+.stackMobile a img:hover {
+  transform: scale(1.2);
 }
 
 .footer {
@@ -177,8 +194,6 @@
 
   .information p {
     max-width: 450px;
-    font-size: 16px;
-    color: #3E3E3E;
   }
 
   .seeMyProjects {
@@ -191,6 +206,17 @@
 
     display: flex;
     justify-content: space-around;
+  }
+
+  .stackDesktop a {
+    transition: 0.2s;
+    margin: 0 5px 0 5px;
+  }
+
+  .stackDesktop a:hover {
+    transition: 0.2s;
+    border-bottom: 1px solid #141414;
+    transform: scale(1.2);
   }
 
   .stackMobile {

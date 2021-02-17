@@ -5,6 +5,10 @@ import SendMessageButton from '../components/sendMessageButton';
 import homecss from '../styles/home.module.css';
 
 function HomePage() {
+    const goToMyProjects = () => {
+        window.alert('Em desenvolvimento...');
+    }
+
     return (
         <div>
             <Head>
@@ -34,18 +38,26 @@ function HomePage() {
             <main>
                 <div className={homecss.information}>
                     <div>
-                        <h1>Freelance full-stack
-                            <span> javascript </span>
+                        <h1>Freelance full-stack <br />
+                            <a
+                                className={homecss.javascriptHref}
+                                target="_blank"
+                                href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+                                rel="noreferrer"
+                            >
+                                javascript
+                            </a>
+                            <br />
                             developer.
                         </h1>
 
                         <p>
-                            Por ser mais rápida que outras linguagens de programação e me abrir um leque de possibilidades, como front-end, back-end e mobile, além de suas várias bibliotecas, escolhi JavaScript como minha linguagem de programação principal.
+                             Escolhi Javascript principalmente por ser uma linguagem de programação mais rápida que as outras, também por me abrir um leque de possibilidades, como front-end, back-end e mobile, além de suas várias bibliotecas. Por isso a considero a minha linguagem príncipal para desenvolvimento.
                         </p>
 
                         <div>
-                            <button className={homecss.seeMyProjects}>
-                                <a>
+                            <button className={homecss.seeMyProjects} onClick={goToMyProjects}>
+                                <a href="#">
                                     Veja meus projetos
                                 </a>
                             </button>
