@@ -125,6 +125,8 @@
   align-items: center;
   line-height: 1;
   justify-content: space-around;
+
+  padding-bottom: 25px;
 }
 
 .footer h2 {
@@ -194,6 +196,10 @@
 
   .information p {
     max-width: 450px;
+  }
+
+  .profileImage {
+    width: 600px;
   }
 
   .seeMyProjects {

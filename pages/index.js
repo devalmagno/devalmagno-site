@@ -65,7 +65,7 @@ function HomePage() {
                             </button>
                         </div>
                     </div>
-                    <img src="/images/lucio-magno.svg" />
+                    <img className={homecss.profileImage} src="/images/lucio-magno.svg" />
                 </div>
 
                 <div>
@@ -113,7 +113,6 @@ function HomePage() {
                     Deseja me contratar para seu projeto? Você pode entrar em contanto rapidamente apertando o botão abaixo.
                 </p>
                 <SendMessageButton />
-                <div></div>
             </footer>
         </div>
     );
