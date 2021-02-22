@@ -40,21 +40,20 @@ function HomePage() {
             <main>
                 <div className={homecss.information}>
                     <div>
-                        <h1>Freelance full-stack <br />
+                        <h1>Procurando por um <br />
                             <a
                                 className={homecss.javascriptHref}
-                                target="_blank"
-                                href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
-                                rel="noreferrer"
+                                href="#"
                             >
-                                javascript
+                                backend
                             </a>
                             <br />
-                            developer.
+                            developer?
                         </h1>
 
                         <p>
-                            Escolhi Javascript principalmente por ser uma linguagem de programação mais rápida que as outras, também por me abrir um leque de possibilidades, como front-end, back-end e mobile, além de suas várias bibliotecas. Por isso a considero a minha linguagem príncipal para desenvolvimento.
+                            Meu nome é Lúcio Magno e atualmente desenvolvo em NodeJs. 
+                            Tenho como foco o desenvolvimento de API, utilizando o TypeScript (um SUPERSET de JavaScript). Também faço uso de um framework chamado Express, e para banco de dados PostgreSQL ou MongoDB.
                         </p>
 
                         <div>
@@ -113,6 +112,8 @@ function HomePage() {
                     Deseja me contratar para seu projeto? Você pode entrar em contanto rapidamente apertando o botão abaixo.
                 </p>
                 <SendMessageButton />
+
+                <p className={homecss.footerInfo}>Este site foi feito com as tecnólogias Reactjs e Nextjs.</p>
             </footer>
         </div>
     );

@@ -183,7 +183,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    padding: 0 10% 0 10%;
+    padding: 0 15% 0 15%;
   }
 
   .information div div {
@@ -229,5 +229,10 @@
 
   .stackMobile {
     display: none;
+  }
+
+  .footerInfo {
+    margin-top: 50px;
+    color: #141414;
   }
 }
